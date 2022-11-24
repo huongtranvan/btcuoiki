@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "963986631851",
+    "project_id": "thutonghop-284dd",
+    "storage_bucket": "thutonghop-284dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963986631851:android:6671e4525281fb63e91bee",
+        "android_client_info": {
+          "package_name": "com.example.thutonghop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963986631851-rvmcnn51aq156e24kn8oahjdovo2ql0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkjyj30oTHa5wl9QjGOH1O19EmOIU85Sg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963986631851-rvmcnn51aq156e24kn8oahjdovo2ql0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

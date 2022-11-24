@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/imageviewHinh"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <TextView
+        android:id="@+id/textviewTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imageviewHinh"
+        android:text="Tên"
+        android:textColor="#f00"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textviewMoTa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewTen"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imageviewHinh"
+        android:text="Mô tả"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="25dp"
+        android:layout_toEndOf="@+id/textviewMoTa"
+        android:layout_toRightOf="@+id/textviewMoTa"
+        android:text="512"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
